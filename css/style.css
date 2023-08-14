@@ -1,20 +1,133 @@
 .slider {
-    width: 1300px;
+    max-width: 1300px;
     padding: 0 15px;
     margin-left: auto;
     margin-right: auto;
-   
 }
  
+.slick-initialized .slick-slide {
+    display: flex;
+}
+
+.img-title-cont {
+    padding-top: 0;
+    width: 100%;
+}
+
+.logo-cont {
+    /* width: 100%; */
+}
+
 .img-title {
-    max-width: 400px;
+    color: #fff;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.text {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.name-title {
+    padding-top: 0;
+    padding-left: 80px;
+    max-width: 600px;
+}
+
+.our-logo {
+    color: #fff;
+    font-size: 50px;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    align-items: center;
+    padding-right: 100px;
+}
+
+.our-logo-accent {
+    color: blueviolet;
 }
 
 .slider-img {
-    margin-right: 24px;
+   width: 90%;
+   height: 600px;
+}
+
+.first {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .slick-arrow {
     background-color: gray;
     border-radius: 50%;
 }
+
+.slider-img {
+    background: url(../img/bg.new.jpg);
+}
+
+.img-tech {
+    background-color: transparent;
+    display: flex;
+}
+
+/*-----SECOND SLIDE-----*/
+
+.members-title {
+    display: flex;
+    align-items: center;
+    /* padding-top: 0; */
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*-----THIRD SLIDE-----*/
+/*-----FOURTH SLIDE-----*/
+
+.probl-list {
+    display: flex;
+    flex-direction: row;
+}
+
+/*-----FIFTH SLIDE-----*/
+
+.fifth {
+    display: flex;
+    flex-direction: column;
+}
+
+.tech-list {
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+}
+
+.tech-cont {
+    display: flex;
+    flex-direction: column;
+}
+
+.tech-li {
+    display: flex;
+    flex-direction: column;
+}
+
+/*-----SIXTH SLIDE-----*/
