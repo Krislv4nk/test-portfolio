@@ -100,6 +100,12 @@
 }
 
 /*-----THIRD SLIDE-----*/
+.third-container {
+    padding: 40px 60px;
+    display: flex;
+    gap:340px;
+}
+
 /*-----FOURTH SLIDE-----*/
 
 .probl-list {
