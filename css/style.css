@@ -106,10 +106,24 @@
 }
 
 /*-----FOURTH SLIDE-----*/
-
+.fourth-slide-container {
+    padding: 60px;
+}
 .probl-list {
     display: flex;
-    flex-direction: row;
+    align-items: center;
+gap: 30px;
+
+}
+
+.fourth-slide-img {
+   align-items: center;
+}
+.noprobl {
+    color: #fff;
+    align-items: center;
+    width: 350px;
+    font-size: 24px;
 }
 
 /*-----FIFTH SLIDE-----*/
