@@ -1,212 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Minimal - team-06</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <!-- Add the slick-theme.css if you want default styling -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
-    />
-    <!-- Add the slick-theme.css if you want default styling -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
-  </head>
 
-  <body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Minimal - team-06</title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Add the slick-theme.css if you want default styling -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <!-- Add the slick-theme.css if you want default styling -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <div class="wrapper"><video autoplay muted loop id="myVideo">
+      <source src="../img/1118546_4k_Form_Graphic_1280x720.mp4" type="video/mp4">
+    </video>
     <div class="slider fade">
       <!--FIRST SLIDE-->
       <div class="slider-img first">
-        <div class="img-title-cont">
-          <h1 class="img-title name-title">Назва команди: LOREM</h1>
-        </div>
-        <div class="logo-cont">
-          <p class="our-logo">Our<span class="our-logo-accent">LOGO</span></p>
-        </div>
+        <p>Hello! I'm Kristina, Junior Full Stack Developer with experience in HTML,
+          CSS, JavaScript, React, Node.js.</p>
+        <img class="myFoto" src="./img/photo_2024-05-01_20-32-40.jpg" alt="myFoto">
       </div>
       <!--SECOND SLIDE-->
       <div class="slider-img second">
-        <h1 class="img-title members-title">Учасники найкращої команди</h1>
-        <ul>
-          <li>
-            <div>
-              <img src="" alt="" />
-              <h2></h2>
-              <p></p>
+        <div class="second-slide-wrapper"><img class="water-img" src="./img/water-tracker.png" alt="Water">
+
+          <div>
+            <h2 class="title-project">Water tracker</h2>
+            <div class="links-wrapper">
+              <a href="https://andriipolishchuk28.github.io/water-tracker-frontend/" class="link" target="_blank"
+                title="View Live Demo of Water Tracker App">Live Demo</a>
+              <a href="https://github.com/AndriiPolishchuk28/water-tracker-frontend/" class="link" target="_blank"
+                title="View Front-End Code on GitHub">Front-End GitHub</a>
+              <a href="https://github.com/SerhiiOberemchuk/watertracker-backand-codekartel/" class="link"
+                target="_blank" title="View Back-End Code on GitHub">Back-End GitHub</a>
             </div>
+          </div>
+        </div>
+        <p class="description-project">Team project</p>
+        <p class="description-project">This is a web application designed for tracking daily water intake. The
+          application consists of the following functional
+          components:
+          Home Page: The landing page of the application, where users can get an overview of their water intake
+          statistics, set
+          goals, and access other features.
+          Water Journal: This section allows users to log their daily water consumption. Users can input the amount of
+          water
+          consumed at different times throughout the day and view their hydration progress over time.
+          Settings: The settings page enables users to customize their experience, such as setting reminders for
+          drinking water,
+          adjusting units of measurement, and managing account preferences.
+          Key Features:
+          Private and Public Routes: The application implements private routes, which require user authentication, and
+          public
+          routes, accessible to all users. Private routes ensure data security and restrict unauthorized access to
+          sensitive
+          information.
+          Backend Functionality: The application is powered by a backend system that manages user data, handles
+          authentication,
+          and facilitates communication between the frontend and the database. This backend infrastructure ensures the
+          smooth
+          functioning of features like data storage, retrieval, and security.
+          Adaptation for Different Devices: The application is optimized for various devices, including desktops,
+          tablets, and
+          mobile phones. It utilizes responsive design principles to ensure a seamless user experience across different
+          screen
+          sizes and resolutions.
+          By incorporating these enhancements, the description provides a clearer understanding of the Water-Tracker-APP
+          project's
+          functionality and features, encompassing both frontend and backend components.</p>
+        <ul class="tools">Tools:
+          <li>Frontend:
+            <ul class="tools-list">
+              <li>React,</li>
+              <li>Redux,</li>
+              <li>MUi (Material-UI),</li>
+              <li>Axios,</li>
+              <li>Formik;</li>
+            </ul>
           </li>
-          <li>
-            <div>
-              <img src="" alt="" />
-              <h2></h2>
-              <p></p>
-            </div>
-          </li>
-          <li>
-            <div>
-              <img src="" alt="" />
-              <h2></h2>
-              <p></p>
-            </div>
-          </li>
-          <li>
-            <div>
-              <img src="" alt="" />
-              <h2></h2>
-              <p></p>
-            </div>
-          </li>
-          <li>
-            <div>
-              <img src="" alt="" />
-              <h2></h2>
-              <p></p>
-            </div>
-          </li>
-          <li>
-            <div>
-              <img src="" alt="" />
-              <h2></h2>
-              <p></p>
-            </div>
+          <li>Backend:
+            <ul class="tools-list">
+              <li>Node.js,</li>
+              <li>Express,</li>
+              <li>Nodemon,</li>
+              <li>JWT (JSON Web Tokens);</li>
+            </ul>
           </li>
         </ul>
+        <p class="description-project">Duration: 2 weeks</p>
+        <p class="description-project">Role: on Front-End - Implemented logic for SignUp/SignIn pages (Redux, Axios,
+          Formik, Yup),
+          component MyDailyNorma with
+          modal-window (MUI), component Background; on Back-End - Implemented logic for TodayWater component. </p>
       </div>
+
       <!--THIRD SLIDE-->
       <div class="slider-img third">
-        <div class="third-container">
-          <div class="lady">
-        <div>
-          <img
-            class="women"
-            width="300"
-            height="220"
-            src="./img/firstlady.jpg"
-            alt="The best women in the world"
-          />
-        </div>
-        <div>
-          <p class="text user-text">First Lady</p>
-          <ul class="third-list">
-            <li class="third-item">45 років</li>
-            <li class="third-item">Продакшн, архітектура, самоврядування</li>
-            <li class="third-item">Затишок, функціонал, простор</li>
-          </ul>
-        </div>
-      </div>
-        <div>
-        <div>
-          <img
-            class="men"
-            width="300"
-            height="220"
-            src="./img/president.jpg"
-            alt="The best man in the world"
-          />
-        </div>
-        <div>
-          <p class="text user-text">President</p>
-          <ul class="third-list">
-            <li class="third-item">45 років</li>
-            <li class="third-item">Самоврядування, гумор, продакшн, кіно</li>
-            <li class="third-item">Мінімалізм, комфорт, зручність</li>
-          </ul>
-        </div>
-      </div>
-      </div>
+        3
       </div>
       <!--FOURTH SLIDE-->
       <div class="slider-img fourth">
-        <div class="fourth-slide-container">
-        <ul class="probl-list">
-          <li class="list">
-            <div>
-              <img class="fourth-slide-img" width="250px" src="./img/infrastructure.png" alt="structure" />
-              <p class="noprobl">Доступ до широкого каталогу нових і актуальних дизайнерських рішень</p>
-            </div>
-          </li>
-          <li class="list">
-            <div>
-              <img class="fourth-slide-img" width="250px" src="./img/it-systems.png" alt="system" />
-              <p class="noprobl">Зручна навігація і інтуїтивно зрозумілий функціонал</p>
-            </div>
-          </li>
-          <li class="list">
-            <div>
-              <img class="fourth-slide-img" width="200px" src="./img/computer.png" alt="computer" />
-              <p class="noprobl">Розробляється з урахуванням того, щоб його можна  було відкрити з будь-якого браузера, ОС.</p>
-            </div>
-          </li>
-          
-        </ul>
+        4
       </div>
-      </div>
+
       <!--FIFTH SLIDE-->
       <div class="slider-img fifth">
-        <img
-          class="img-tech"
-          width="400"
-          height="400"
-          src="../img/cercle.png"
-          alt="Technologies"
-        />
-        <h2 class="img-title">Технології, які ми юзали</h2>
-        <ul class="tech-list">
-          <li class="tech-li">
-            <div class="tech-cont">
-              <img src="" alt="Front-end" />
-              <p></p>
-            </div>
-          </li>
-          <li class="tech-li">
-            <div class="tech-cont">
-              <img src="" alt="Back-end" />
-              <p></p>
-            </div>
-          </li>
-          <li class="tech-li">
-            <div class="tech-cont">
-              <img src="" alt="Utilites" />
-              <p></p>
-            </div>
-          </li>
-        </ul>
+        5
+
       </div>
       <!--SIXTH SLIDE-->
       <div class="slider-img">
-        <img class="img-last" width="400" height="400" src="" alt="Thank you" />
-        <h2 class="img-title">Дякуємо за увагу!</h2>
+        6
       </div>
     </div>
-    <script
-      type="text/javascript"
-      src="//code.jquery.com/jquery-1.11.0.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
-    ></script>
-    <script src="./js/slider.js"></script>
-  </body>
+  </div>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="./js/slider.js"></script>
+</body>
+
 </html>
