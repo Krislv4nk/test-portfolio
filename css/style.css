@@ -7,13 +7,6 @@
    align-items: center;
 }
 
-#myVideo {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-}
 .slider {
 border: 5px solid rgb(255, 255, 255);
     border-radius: 10px;
@@ -60,74 +53,10 @@ border: 5px solid rgb(255, 255, 255);
 }
 
 /*-----FIRST SLIDE-----*/
-.first {
-    text-align: center;
-    font-size: 30px;
-    line-height: 50px;
-    font-weight: 600;
-}
-.myFoto {
-    width: 300px;
-    height: auto;
-    margin: auto;
-}
+
 
 /*-----SECOND SLIDE-----*/
-.second-slide-wrapper {
-display: flex;
-gap: 50px;
-margin-bottom: 20px;
-}
-.title-project {
-    font-size: 30px;
-    line-height: 40px;
-    font-weight: 500;
-    margin-left: 0px;
-    margin-top: 0px;
-}
-.links-wrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-.water-img {
-    width: 300px;
-    height: auto;
-}
-.link {
-    font-family: Raleway;
-    color: white;
-    text-align: center;
-    font-size: 20px;
-    line-height: 20px;
-    font-weight: 400;
-}
 
-.description-project {
-    font-family: Raleway;
-    color: white;
-    font-size: 14px;
-    line-height: 20px;
-font-weight: 300;
-margin: 10px 0;
-}
-.tools {
-    font-size: 14px;
-    line-height: 20px;
-    font-weight: 300;
-    list-style: none;
-    padding-left: 0px;
-    margin: 30px 0;
-}
-.tools-list {
-    display: flex;
-    gap: 10px;
-    font-size: 14px;
-    line-height: 20px;
-    font-weight: 300;
-    list-style: none;
-    padding-left: 0px;
-}
 /*-----THIRD SLIDE-----*/
 
 
